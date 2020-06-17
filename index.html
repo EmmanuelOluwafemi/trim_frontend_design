@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trim | url shortener</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>`
+
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul class="menu">
+                    <li class="logo"><a href="#">
+                            <img src="./src/images/logo.svg" width="40px" alt="">
+                            <span>Trim</span>
+                        </a></li>
+                    <li class="item"><a href="./index.html">Home</a></li>
+                    <li class="item"><a href="#">Statistics</a></li>
+                    <li class="item button"><a href="./contact.html">Contact</a></li>
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="content">
+        <div class="wrapper">
+            <div class="circle_overlay top"></div>
+            <div class="circle_overlay bottom"></div>
+            <div class="head_info">
+                <h1>Let's Trim</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis illo molestiae, quia perferendis eaque accusamus aliquam! Itaque ad eius iste, doloremque, debitis unde facere earum iure vitae voluptate, delectus laboriosam!</p>
+                <div class="input_group">
+                    <input type="text" placeholder="Enter your url">
+                    <button class="trim">Trim</button>
+                </div>
+            </div>
+        </div>
+        <img src="./src/images/laptop_model.svg" width="650px" alt="">
+        <div class="overlay"></div>
+        <div class="result">
+            <span class="close"><i class='fas fa-times'></i></span>
+            <input class="overlay_input" type="text" id="trim_url" value="hello" disabled>
+            <button onclick="copyToBoard()">Copy Link</button>
+        </div>
+        </div>
+    </section>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
